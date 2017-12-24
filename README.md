@@ -1,4 +1,5 @@
-P2MP File Transfer Protocol Version 1.0 11/27/2017
+P2MP reliable File Transfer Protocol  
+Version 1.0 11/27/2017
 
 GENERAL USAGE NOTES
 ===================
@@ -8,11 +9,12 @@ GENERAL USAGE NOTES
 Code Execution
 --------------
 
-- Executing server code
-# python rjain11_proj2_server.py <serverport> <destination filename> <loss probability>
+#Executing server code
+---------------------
+python rjain11_proj2_server.py <serverport> <destination filename> <loss probability>
 
--Executing client code
-# python rjain11_proj2_client.py <server1IP> <server2IP> ... <servernIP> <serverport> <source filename> <MSS>
-
+#Executing client code
+----------------------
+python rjain11_proj2_client.py <server1IP> <server2IP> ... <servernIP> <serverport> <source filename> <MSS>
 
 ====================================================================================================================================
